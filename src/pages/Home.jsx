@@ -37,7 +37,7 @@ function Home({
           {searchValue && (
             <img
               className="clear removeBtn"
-              src="/img/btn-remove.svg"
+              src="img/btn-remove.svg"
               alt="Remove"
               onClick={() => setSearchValue("")}
             />
