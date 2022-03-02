@@ -28,7 +28,7 @@ function Header(props) {
           </Link>
         </li>
         <Link to={process.env.PUBLIC_URL + '/favorites/orders'}>
-          <img src="img/user.svg" alt="User" />
+          <img src="react-sneakers/img/user.svg" alt="User" />
         </Link>
       </ul>
     </header>
