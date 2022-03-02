@@ -27,8 +27,8 @@ function Header(props) {
             <img src="img/fav.svg" alt="Fav" />
           </Link>
         </li>
-        <Link to={process.env.PUBLIC_URL + '/favorites/orders'}>
-          <img src="react-sneakers/img/user.svg" alt="User" />
+        <Link to={process.env.PUBLIC_URL + '/orders'}>
+          <img src="img/user.svg" alt="User" />
         </Link>
       </ul>
     </header>
