@@ -14,7 +14,7 @@ function Info({image, title, desc}) {
       <h2>{title}</h2>
       <p className="opacity-6">{desc} </p>
       <button onClick={() => setCartOpened(false)} className="greenBtn">
-        <img src="/img/arrow-left.svg" alt="Arrow-left" />
+        <img src="img/arrow-left.svg" alt="Arrow-left" />
         Вернуться назад
       </button>
     </div>
