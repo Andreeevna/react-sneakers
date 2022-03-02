@@ -97,13 +97,13 @@ function Drawer({ onClose, items = [], onRemove, opened }) {
                   className="greenBtn"
                 >
                   Оформить заказ
-                  <img src="/img/arrow.svg" alt="Arrow" />
+                  <img src="img/arrow.svg" alt="Arrow" />
                 </button>
               </div>
             </div>
           ) : (
             <Info
-              image={isComplete ? "/img/order.jpg" : "/img/empty-cart.png"}
+              image={isComplete ? "img/order.jpg" : "img/empty-cart.png"}
               title={isComplete ? "Заказ оформлен!" : "Корзина пустая"}
               desc={
                 isComplete

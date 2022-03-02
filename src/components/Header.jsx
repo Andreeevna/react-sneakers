@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 import { useCart } from "../hooks/useCart";
 
 function Header(props) {
-  const {totalPrice} = useCart();
-
+  const { totalPrice } = useCart();
 
   return (
     <header className="d-flex justify-between  align-center p-40">
-      <Link to={process.env.PUBLIC_URL + '/'}>
+      <Link to={process.env.PUBLIC_URL + "/"}>
         <div className="headerLeft d-flex align-center">
           <img src="img/logo.png" className="mr-10" alt="logo" />
           <div>
@@ -23,11 +22,11 @@ function Header(props) {
           <span>{totalPrice} руб.</span>
         </li>
         <li className="mr-20">
-          <Link to={process.env.PUBLIC_URL + '/favorites'}>
+          <Link to={process.env.PUBLIC_URL + "/favorites"}>
             <img src="img/fav.svg" alt="Fav" />
           </Link>
         </li>
-        <Link to={process.env.PUBLIC_URL + '/orders'}>
+        <Link to="/orders">
           <img src="img/user.svg" alt="User" />
         </Link>
       </ul>
