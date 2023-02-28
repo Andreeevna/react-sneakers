@@ -1,4 +1,4 @@
-# react-sneakers
+# React-sneakers
 
 https://andreeevna.github.io/react-sneakers/
 
